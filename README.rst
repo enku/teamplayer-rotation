@@ -30,7 +30,7 @@ Assuming you already have a working instance of TeamPlayer:
    enable and configure teamplayer-rotation::
 
     TEAMPLAYER = {
-        AUTOFILL_STRATEGY': 'rotation',
+        'AUTOFILL_STRATEGY': 'rotation',
         'SHAKE_THINGS_UP': 10',
     }
 
