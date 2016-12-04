@@ -42,7 +42,7 @@ Assuming you already have a working instance of TeamPlayer:
    able to add/remove your TeamPlayer library songs to the rotation playlist.
 
 .. image:: admin.png
-    :width: 50%
+    :width: 600px
     :align: center
 
 5. Start the spindoctor and DJ Ango will choose songs from the playlist::
