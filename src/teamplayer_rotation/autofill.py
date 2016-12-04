@@ -5,7 +5,7 @@ from teamplayer.lib.autofill import auto_fill_random
 from .models import Song
 
 
-def rotation_autofill(queryset, entries_needed, station):
+def rotation_autofill(*, queryset, entries_needed, station):
     """Return songs from the rotation playlist"""
     qs = Song.objects.order_by('?')[:entries_needed]
 
