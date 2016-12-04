@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'teamplayer',
     ],
-    install_package_data=True,
+    include_package_data=True,
     entry_points={
         'teamplayer.autofill_strategy': [
             'rotation = teamplayer_rotation.autofill:rotation_autofill',
