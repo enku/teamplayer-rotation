@@ -5,7 +5,7 @@ from teamplayer.models import LibraryItem
 
 class Song(models.Model):
     """The LibraryItems to use in our playlist"""
-    song = models.OneToOneField(LibraryItem)
+    song = models.OneToOneField(LibraryItem, on_delete=models.CASCADE)
     added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
