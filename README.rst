@@ -15,7 +15,7 @@ Assuming you already have a working instance of TeamPlayer:
 
 1. Install ``teamplayer-rotation``::
 
-    $ pip install hg+https://bitbucket.org/marduk/teamplayer-rotation
+    $ pip install git+https://github.com/enku/teamplayer-rotation
 
 2. Change your TeamPlayer settings in your ``DJANGO_SETTINGS_MODULE`` to
    add teamplayer-rotation to ``INSTALLED_APPS``::
@@ -50,4 +50,4 @@ Assuming you already have a working instance of TeamPlayer:
     $ python manage.py spindoctor
 
 
-.. _TeamPlayer: https://bitbucket.org/marduk/teamplayer 
+.. _TeamPlayer: https://github.com/enku/teamplayer
